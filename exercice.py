@@ -5,20 +5,36 @@
 def order(values: list = None) -> list:
     if values is None:
         # TODO: demander les valeurs ici
-        pass
+        for i in range(len(values)):
+            for j in range(i+1, len(values)):
+                if values[i] > values[j]:
+                    temp = values[j]
+                    values[j] = values[i]
+                    values[i] = temp
 
-    return []
+    return values
 
 
 def anagrams(words: list = None) -> bool:
     if words is None:
-        # TODO: demander les mots ici
-        pass
+        return False
+    
+    word1 = words[0]
+    word2 = words[1]
+    letters_word1 = [i for i in word1]
+    for i in word2:
+        if i not in letters_word1:
+            return False
 
-    return False
+    return True
 
 
 def contains_doubles(items: list) -> bool:
+    
+    for i in range(len(items)):
+        if items[i] in items[i+1:]:
+            return True
+
     return False
 
 
