@@ -8,7 +8,7 @@ def order(values: list = None) -> list:
         for i in range(10):
             values.append()
 
-    for i in range(len(va):
+    for i in range(10):
         for j in range(i+1, len(values)):
             if values[i] > values[j]:
                 temp = values[j]
