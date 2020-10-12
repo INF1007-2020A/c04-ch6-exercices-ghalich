@@ -17,6 +17,6 @@ Traceback (most recent call last):
 AttributeError: 'int' object has no attribute 'get'
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.000s
+Ran 5 tests in 0.001s
 
 FAILED (errors=1)
