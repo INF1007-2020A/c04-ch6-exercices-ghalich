@@ -4,7 +4,8 @@
 
 def order(values: list = None) -> list:
     if values is None:
-        for i in range()
+        for i in range(10):
+            
 
     for i in range(len(values)):
         for j in range(i+1, len(values)):
