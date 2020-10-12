@@ -1,7 +1,7 @@
 test_anagram (__main__.TestExercice) ... ok
 test_doubles (__main__.TestExercice) ... ok
 test_frequence (__main__.TestExercice) ... FAIL
-test_grades (__main__.TestExercice) ... FAIL
+test_grades (__main__.TestExercice) ... ok
 test_order (__main__.TestExercice) ... FAIL
 
 ======================================================================
@@ -40,16 +40,6 @@ First differing element 0:
 +   'u': 2}] : Erreur dans les histogrammes
 
 ======================================================================
-FAIL: test_grades (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 68, in test_grades
-    'Erreur dans les notes'
-AssertionError: {} != {'Sam': 85}
-- {}
-+ {'Sam': 85} : Erreur dans les notes
-
-======================================================================
 FAIL: test_order (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
@@ -67,4 +57,4 @@ First differing element 0:
 ----------------------------------------------------------------------
 Ran 5 tests in 0.002s
 
-FAILED (failures=3)
+FAILED (failures=2)
