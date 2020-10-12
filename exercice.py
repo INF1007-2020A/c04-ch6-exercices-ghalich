@@ -73,7 +73,7 @@ def frequence(sentence: str) -> dict:
         five_highest.append(highest)
         del occ_dict[highest]
         
-    return {}
+    return five_highest
 
 
 def get_recipes():
