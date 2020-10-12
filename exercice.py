@@ -69,8 +69,9 @@ def frequence(sentence: str) -> dict:
     five_highest = []
 
     for i in range(5):
-        highest = 
-        five_highest.append(max(occ_dict, key=occ_dict.get))
+        highest = max(occ_dict, key=occ_dict.get)
+        
+        five_highest.append()
 
 
 
