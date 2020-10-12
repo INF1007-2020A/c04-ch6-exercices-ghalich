@@ -64,7 +64,7 @@ def frequence(sentence: str) -> dict:
 
     for i in sentence:
         if (i.lower()).isalpha():
-            occ_dict[i.lower()] = occ_dict.get(i, 0) + 1
+            occ_dict[i.lower()] = occ_dict.get(i.lower(), 0) + 1
 
     highests = {}
 
