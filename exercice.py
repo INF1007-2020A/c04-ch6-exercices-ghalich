@@ -66,7 +66,9 @@ def frequence(sentence: str) -> dict:
         if i.isalpha():
             occ_dict = occ_dict.get(i, 0) + 1
 
-    h
+    five_highest = []
+
+    
 
 
     return {}
