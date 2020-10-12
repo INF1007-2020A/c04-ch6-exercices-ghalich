@@ -66,7 +66,7 @@ def frequence(sentence: str) -> dict:
         if i.isalpha():
             occ_dict[i] = occ_dict.get(i, 0) + 1
 
-    highests = []
+    highests = {}
 
     while True:
         highest = max(occ_dict, key=occ_dict.get)
