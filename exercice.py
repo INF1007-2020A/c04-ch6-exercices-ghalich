@@ -74,8 +74,6 @@ def frequence(sentence: str) -> dict:
             break
         highests[highest] = occ_dict[highest]
         del occ_dict[highest]
-    
-    print(highests)
 
     return highests
 
