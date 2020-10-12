@@ -69,6 +69,7 @@ def frequence(sentence: str) -> dict:
     five_highest = []
 
     for i in range(5):
+        five_highest.append[]
 
 
 
