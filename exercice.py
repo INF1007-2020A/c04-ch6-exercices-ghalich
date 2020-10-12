@@ -72,7 +72,7 @@ def frequence(sentence: str) -> dict:
         highest = max(occ_dict, key=occ_dict.get)
         if occ_dict[highest] <= 5:
             break
-        highests.append(highest)
+        highests[highest] = 
         del occ_dict[highest]
     
     print(highests)
