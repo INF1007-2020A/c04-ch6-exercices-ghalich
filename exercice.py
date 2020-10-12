@@ -64,7 +64,7 @@ def frequence(sentence: str) -> dict:
 
     for i in sentence:
         if i.isalpha():
-            p
+            occ_dict = occ_dict.get(i, 0)
 
     
     return {}
