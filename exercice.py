@@ -6,7 +6,7 @@ def order(values: list = None) -> list:
     if values is None:
         values = []
         for i in range(10):
-            values.append(input("Entrez la valeur #"))
+            values.append(input(f"Entrez la valeur #{i+1} : "))
 
     for i in range(10):
         for j in range(i+1, len(values)):
