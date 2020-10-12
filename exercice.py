@@ -4,13 +4,14 @@
 
 def order(values: list = None) -> list:
     if values is None:
-        # TODO: demander les valeurs ici
+        for i in range()
+
     for i in range(len(values)):
         for j in range(i+1, len(values)):
             if values[i] > values[j]:
                 temp = values[j]
                 values[j] = values[i]
-                    values[i] = temp
+                values[i] = temp
 
     return values
 
